@@ -1,0 +1,26 @@
+.body{
+    height: 100%;
+    padding: 10%;
+    background-color: #000000;
+}
+
+.body h1{
+    color:  white;
+}
+
+.body p{
+    color: white;
+    line-height: 40px;
+}
+
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.images img{
+    padding-top: 10px;
+    width: 60px;
+    padding-left: 10px;
+}
+
