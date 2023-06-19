@@ -4,6 +4,8 @@ import Content from './componentes/Content';
 import Aside from './componentes/Aside';
 import './App.css';
 import About from './componentes/About.js';
+import Port from './componentes/Port'
+import Footer from './componentes/footer';
 
 const App = () => {
   return (
@@ -14,7 +16,10 @@ const App = () => {
         <Aside />
       </div>
       <About />
+      <Port/>
+      <Footer/>
     </div>
+      
   );
 };
 
